@@ -13,12 +13,12 @@ const App = () => {
   const average = total ? (good - bad) / total : 0;
 
   return (
-    <div className="bg-gradient-to-br from-blue-100 to-green-200 min-h-screen flex justify-center items-center p-4">
-      <div className="bg-white rounded-2xl shadow-2xl max-w-sm w-full p-6 space-y-4 transform transition duration-500 hover:scale-105 hover:shadow-3xl">
+    <div className="min-h-screen flex justify-center items-center p-4">
+      <div className="bg-white rounded-2xl shadow-2xl max-w-sm w-full p-6 space-y-4">
         <div className="flex items-center space-x-4">
           <div>
             <h2 className="text-xl font-bold text-gray-800">Give feedback</h2>
-            <p className="text-sm text-gray-500">Statics</p>
+            <p className="text-sm text-gray-500 pt-2">Statics</p>
           </div>
         </div>
 

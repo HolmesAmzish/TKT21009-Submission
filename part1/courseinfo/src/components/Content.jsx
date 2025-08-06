@@ -1,12 +1,12 @@
 const Part = ({ name, exercises}) => {
     return (
-        <p>
+        <p className="hover:bg-gray-100 transition duration-200">
             {name} {exercises}
         </p>
     )
 }
 
-const Content = ({ parts}) => {
+const Content = ({ parts }) => {
     return (
         <div>
             {parts.map((part, index) => (
